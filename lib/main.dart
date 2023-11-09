@@ -6,9 +6,11 @@ void main() {
   // } else {
   //   print("what is your namne tell me what is your name");
   // }
-  for (int a = 10; a < 181; a++) {
-    print(a);
-  }
+  // for (int a = 10; a < 181; a++) {
+  //   print(a);
+  // }
+  var now = DateTime.now();
+  print(now);
 }
 
 // int binarySearch(int a, int b) {
