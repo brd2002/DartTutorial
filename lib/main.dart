@@ -4,7 +4,14 @@ class Person {
   int? age;
   String? name;
   void setAge(int age) {
-    age = age;
+    this.age = age;
+  }
+}
+
+class Male extends Person {
+  double? income;
+  void setIncome(double inCome) {
+    this.income = inCome;
   }
 }
 
@@ -21,11 +28,16 @@ void main() {
   // }
   // var now = DateTime.now();
   // print(now);
-  Person bharat =  Person();
+  Person bharat = Person();
   bharat.age = 20;
-  print(bharat.age);
+  bharat.setAge(50);
+  // print(bharat.age);
+  Male binoy = Male();
+  binoy.setIncome(202200.336565);
+  print(binoy.income);
 }
 
 // int binarySearch(int a, int b) {
 //   return a * b;
 // }
+
