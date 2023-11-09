@@ -1,6 +1,6 @@
 // import 'dart:js_util';
 
-class Person {
+mixin Person {
   int? age;
   String? name;
   void setAge(int age) {
@@ -8,10 +8,10 @@ class Person {
   }
 }
 
-class Male extends Person {
+class Male with Person {
   double? income;
   void setIncome(double inCome) {
-    this.income = inCome;
+    income = inCome;
   }
 }
 
@@ -28,13 +28,18 @@ void main() {
   // }
   // var now = DateTime.now();
   // print(now);
-  Person bharat = Person();
-  bharat.age = 20;
-  bharat.setAge(50);
-  // print(bharat.age);
-  Male binoy = Male();
-  binoy.setIncome(202200.336565);
-  print(binoy.income);
+  // Person bharat = Person();
+  // bharat.age = 20;
+  // bharat.setAge(50);
+  // // print(bharat.age);
+  // Male binoy = Male();
+  // binoy.setIncome(202200.336565);
+  // print(binoy.income);
+  // Set<int> bharat = {10, 20};
+  var a = 10;
+  var c = 30;
+  var b = a > c ? 12 : 23;
+  print(b);
 }
 
 // int binarySearch(int a, int b) {
