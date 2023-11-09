@@ -1,3 +1,13 @@
+// import 'dart:js_util';
+
+class Person {
+  int? age;
+  String? name;
+  void setAge(int age) {
+    age = age;
+  }
+}
+
 void main() {
   // print("bharat");
   // var a = 12;
@@ -9,8 +19,11 @@ void main() {
   // for (int a = 10; a < 181; a++) {
   //   print(a);
   // }
-  var now = DateTime.now();
-  print(now);
+  // var now = DateTime.now();
+  // print(now);
+  Person bharat =  Person();
+  bharat.age = 20;
+  print(bharat.age);
 }
 
 // int binarySearch(int a, int b) {
