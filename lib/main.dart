@@ -14,7 +14,8 @@
 //     income = inCome;
 //   }
 // }
-late String bharat;
+// late String bharat;
+String  playerName(String? name) => name != null ? name : "bharat";
 
 void main() {
   // print("bharat");
@@ -41,8 +42,9 @@ void main() {
   // var c = 30;
   // var b = a > c ? 12 : 23;
   // print(b);
-  bharat = "whis is your name ? ";
-  print(bharat);
+  // bharat = "whis
+  String name = playerName("");
+  print(name);
 }
 
 // int binarySearch(int a, int b) {
