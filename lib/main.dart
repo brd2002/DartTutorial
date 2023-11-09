@@ -1,19 +1,20 @@
 // import 'dart:js_util';
 
-mixin Person {
-  int? age;
-  String? name;
-  void setAge(int age) {
-    this.age = age;
-  }
-}
+// mixin Person {
+//   int? age;
+//   String? name;
+//   void setAge(int age) {
+//     this.age = age;
+//   }
+// }
 
-class Male with Person {
-  double? income;
-  void setIncome(double inCome) {
-    income = inCome;
-  }
-}
+// class Male with Person {
+//   double? income;
+//   void setIncome(double inCome) {
+//     income = inCome;
+//   }
+// }
+late String bharat;
 
 void main() {
   // print("bharat");
@@ -36,13 +37,14 @@ void main() {
   // binoy.setIncome(202200.336565);
   // print(binoy.income);
   // Set<int> bharat = {10, 20};
-  var a = 10;
-  var c = 30;
-  var b = a > c ? 12 : 23;
-  print(b);
+  // var a = 10;
+  // var c = 30;
+  // var b = a > c ? 12 : 23;
+  // print(b);
+  bharat = "whis is your name ? ";
+  print(bharat);
 }
 
 // int binarySearch(int a, int b) {
 //   return a * b;
 // }
-
